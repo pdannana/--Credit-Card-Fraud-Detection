@@ -1,5 +1,54 @@
-# Credit-Card-Fraud-Detection
-This project aims to build a robust machine learning model to detect fraudulent credit card transactions. By analyzing transaction data, the model can distinguish between legitimate and fraudulent transactions, helping to prevent financial losses.
+🕵️‍♂️🔍 Project Methodology:    Credit Card Fraud Detection 🚨💳
+
+
+🎯 Objective:
+
+Catch those sneaky fraudulent transactions!
+
+🚀 Steps & Procedures:
+
+->📂 Data Collection:
+
+Grabbed a dataset with transaction details 🗂️.
+🧹 Data Preprocessing:
+
+Loaded the data and handled any missing bits 🛠️.
+Normalized Amount 💸 for better model performance.
+Split into training and testing sets ✂️.
+
+
+-->🔍 Exploratory Data Analysis (EDA):
+
+Analyzed transaction amounts 📊.
+Visualized transaction trends over time 📈.
+Examined feature relationships with scatter plots 🔎.
+1)⚖️ Class Balancing:
+
+Used SMOTE to balance the classes 🧪.
+
+2)🤖 Model Building:
+
+Picked XGBoost for its power ⚡.
+Trained on the balanced data 💪.
+
+3)📊 Model Evaluation:
+
+Checked accuracy, precision, recall, F1-score, and ROC-AUC 📈.
+Created a confusion matrix heatmap 🌡️.
+
+🎨 Visualization:
+
+-->Plotted the ROC curve 📉.
+Confusion matrix heatmap to show results
+🔍 Result Interpretation:
+
+High accuracy & strong ROC-AUC! 🏆
+EDA & model insights were spot on! 🔍
+
+-->🛠️ Tools & Tech:
+Python 🐍
+Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, XGBoost, Imbalanced-learn
+Viz Tools: Matplotlib, Seaborn 
 
 
 
